@@ -91,5 +91,9 @@ body {
 
 .imagemGrande{
   border-radius:70px;
+  overflow: hidden;
+    transition: transform 0.5s ease;
+     transform: scale(1.1);
+
 
 }
