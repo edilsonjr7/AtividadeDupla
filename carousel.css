@@ -88,3 +88,8 @@ body {
   display: inline-block;
   vertical-align: middle;
 }
+
+.imagemGrande{
+  border-radius:70px;
+
+}
