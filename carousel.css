@@ -89,11 +89,21 @@ body {
   vertical-align: middle;
 }
 
-.imagemGrande{
-  border-radius:70px;
+.imagemGrande {
+  border-radius: 70px;
   overflow: hidden;
-    transition: transform 0.5s ease;
-     transform: scale(1.1);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  transform: scale(1.05);
+  cursor: pointer;
+  display: block;
+}
 
+.imagemGrande:hover {
+  transform: scale(1.12);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+}
 
+.imagemGrande:active {
+  transform: scale(1.02);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
