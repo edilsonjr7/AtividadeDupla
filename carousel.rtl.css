@@ -24,8 +24,9 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 32rem;
+  height: 20rem;
 }
+
 
 
 /* MARKETING CONTENT
@@ -72,3 +73,4 @@ body {
     margin-top: 7rem;
   }
 }
+
